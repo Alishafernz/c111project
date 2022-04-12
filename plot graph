@@ -1,0 +1,4 @@
+def show_fig(mean_list):
+    df = mean_list
+    fig = ff.create_displot({df},{"temp"},show_hist=False)
+    fig.show
